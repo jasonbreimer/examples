@@ -1,0 +1,51 @@
+[
+    {
+        "category_name": "Configuration/Inventory",
+        "category_uid": 5,
+        "class_name": "Device Inventory Info",
+        "class_uid": 5001,
+        "activity_id": 0,
+        "activity_name": "Tanium Basic Asset",
+        "severity": "Informational",
+        "severity_id": 1,
+        "time": 1665687688638581,
+        "type_name": "Device Inventory Info: Other",
+        "type_uid": 500102,
+        "actor": {
+            "user": {
+                "domain": "WORKGROUP",
+                "name": "bob",
+                "type": "User",
+                "type_id": 1
+            }
+        },
+        "device": {
+            "hostname": "media",
+            "risk_score": 334,
+            "os": {
+                "name": "Ubuntu 22.04.4 LTS",
+                "type_id": 200
+            },
+            "hw_info": {
+                "bios_manufacturer": "Dell Inc.",
+                "chassis": "Virtual",
+                "cpu_type": "Intel(R) Core(TM) i7-8700T CPU",
+                "serial_number": "9052-0612-4493-2331-4540-5111-61"
+            },
+            "is_managed": true,
+            "type": "other",
+            "type_id": 99,
+            "uid": "207270058"
+        },
+        "metadata": {
+            "product": {
+                "name": "Tanium Core",
+                "vendor_name": "Tanium"
+            },
+            "profiles": [
+                "host"
+            ],
+            "version": "1.1.0"
+        }
+    }
+]
